@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<template id="test_layout" name="Test">
+
+
+
+	<h1>Body</h1>
+
+
+</template>
+</odoo>

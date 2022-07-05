@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+	 <template id="records_layout" name="r3 Records">
+
+            <t t-foreach="records" t-as="rec">
+              <t t-esc="rec.product_name"/>
+            </t>
+
+        </template>
+
+           <template id="records_layout2" name="r3 Records2">
+
+            <t t-foreach="records" t-as="rec">
+              <t t-esc="rec.product_model"/>
+            </t>
+
+        </template>
+
+           <template id="records_layout3" name="r3 Records3">
+
+            <t t-foreach="records" t-as="rec">
+              <t t-esc="rec.product_description"/>
+            </t>
+
+        </template>
+
+</odoo>
